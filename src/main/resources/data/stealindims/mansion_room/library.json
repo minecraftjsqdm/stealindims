@@ -1,0 +1,13 @@
+{
+  "type": "library",
+  "weight": 5,
+  "cells": { "min_w": 2, "max_w": 3, "min_h": 1, "max_h": 2 },
+  "roofed": true,
+  "props": [
+    { "kind": "bookshelf", "at": "walls", "height": 3 },
+    { "kind": "enchanting_table", "at": "center", "height": 0 },
+    { "kind": "hidden_chest", "at": "corner", "height": 0 },
+    { "kind": "lantern", "at": "center", "height": 0 }
+  ],
+  "loot_tier": "medium"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "stealindims:raid",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "layers": [
+        { "block": "minecraft:bedrock", "height": 1 }
+      ],
+      "biome": "stealindims:raid_void",
+      "features": true,
+      "lakes": false,
+      "structure_overrides": []
+    }
+  }
+}

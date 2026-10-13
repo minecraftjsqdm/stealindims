@@ -1,0 +1,12 @@
+{
+  "type": "entrance",
+  "weight": 0,
+  "cells": { "min_w": 1, "max_w": 2, "min_h": 1, "max_h": 2 },
+  "roofed": true,
+  "props": [
+    { "kind": "chandelier", "at": "center", "height": 4 },
+    { "kind": "carpet", "at": "center", "height": 0 },
+    { "kind": "banner", "at": "walls", "height": 4 }
+  ],
+  "loot_tier": "none"
+}

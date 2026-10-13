@@ -1,0 +1,53 @@
+{
+  "dimension": "twilightforest:twilight_forest",
+  "yield_multiplier": 1.45,
+  "palette": {
+    "floor": "minecraft:mossy_stone_bricks",
+    "wall": "minecraft:dark_oak_log",
+    "accent": "minecraft:mossy_cobblestone"
+  },
+  "loot_pool": {
+    "common": [
+      { "item": "minecraft:iron_ingot",   "weight": 28, "min": 2, "max": 4 },
+      { "item": "minecraft:gold_nugget",  "weight": 22, "min": 8, "max": 16 },
+      { "item": "minecraft:lapis_lazuli", "weight": 20, "min": 3, "max": 8 },
+      { "item": "minecraft:redstone",     "weight": 20, "min": 4, "max": 12 },
+      { "item": "minecraft:leather",      "weight": 18, "min": 4, "max": 12 }
+    ],
+    "uncommon": [
+      { "item": "minecraft:gold_ingot",         "weight": 28, "min": 2, "max": 5 },
+      { "item": "minecraft:emerald",            "weight": 20, "min": 1, "max": 3 },
+      { "item": "minecraft:experience_bottle",  "weight": 16, "min": 3, "max": 6 },
+      { "item": "minecraft:slime_ball",         "weight": 16, "min": 4, "max": 10 },
+      { "item": "minecraft:phantom_membrane",   "weight": 14, "min": 1, "max": 3 }
+    ],
+    "rare": [
+      { "item": "minecraft:diamond",        "weight": 24, "min": 1, "max": 2 },
+      { "item": "minecraft:emerald_block",  "weight": 12, "min": 1, "max": 1 },
+      { "item": "minecraft:golden_apple",   "weight": 20, "min": 1, "max": 3 },
+      { "item": "minecraft:nautilus_shell", "weight": 14, "min": 1, "max": 3 }
+    ],
+    "epic": [
+      { "item": "minecraft:diamond_block",          "weight": 10, "min": 1, "max": 1 },
+      { "item": "minecraft:enchanted_golden_apple", "weight": 16, "min": 1, "max": 2 },
+      { "item": "minecraft:totem_of_undying",       "weight": 15, "min": 1, "max": 1 },
+      { "item": "stealindims:thief_mark",           "weight": 16, "min": 1, "max": 2 }
+    ]
+  },
+  "special_loot": [
+    { "item": "stealindims:master_key", "weight": 2, "min": 1, "max": 1 },
+    { "item": "minecraft:nether_star",  "weight": 2, "min": 1, "max": 1 }
+  ],
+  "mob_table": [
+    { "id": "twilightforest:hedge_spider",   "weight": 10, "min": 2, "max": 4 },
+    { "id": "twilightforest:hostile_wolf",   "weight": 8,  "min": 2, "max": 3 },
+    { "id": "twilightforest:redcap",         "weight": 7,  "min": 2, "max": 3 },
+    { "id": "twilightforest:kobold",         "weight": 6,  "min": 2, "max": 4 },
+    { "id": "twilightforest:skeleton_druid", "weight": 5,  "min": 2, "max": 2 },
+    { "id": "twilightforest:wraith",         "weight": 4,  "min": 2, "max": 2 }
+  ],
+  "maps": [
+    { "id": "hedge_maze", "name": "树篱迷宫", "layout": "forest_labyrinth", "form": "enclosed_dungeon", "size": "medium", "locked": true }
+  ],
+  "boss": "stealindims:maze_duke"
+}

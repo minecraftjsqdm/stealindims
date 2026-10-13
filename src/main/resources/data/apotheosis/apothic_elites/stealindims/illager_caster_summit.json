@@ -1,0 +1,69 @@
+{
+  "type": "apotheosis:elite",
+  "affix_data": {
+    "affix_chance": 0.35
+  },
+  "basic_data": {
+    "constraints": {
+      "dimensions": [
+        "stealindims:raid",
+        "stealindims:raid_overworld",
+        "stealindims:raid_nether",
+        "stealindims:raid_end",
+        "stealindims:raid_twilight",
+        "stealindims:raid_aether"
+      ]
+    },
+    "name": "Mansion Caster",
+    "spawn_conditions": [
+      {
+        "type": "apotheosis:not",
+        "spawn_condition": {
+          "type": "apotheosis:spawn_type",
+          "spawn_types": [
+            "spawn_egg"
+          ]
+        }
+      }
+    ],
+    "valid_gear_sets": {
+      "summit": [
+        "#summit_ranged"
+      ]
+    },
+    "weights": {
+      "summit": {
+        "quality": 0.1,
+        "weight": 100
+      }
+    }
+  },
+  "entities": [
+    "minecraft:evoker"
+  ],
+  "stats": {
+    "attribute_modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "add_value",
+        "value": 40
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "add_value",
+        "value": 4.0
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "add_multiplied_base",
+        "value": 0.03
+      }
+    ],
+    "enchant_chance": 0.3,
+    "enchantment_levels": {
+      "primary": 20,
+      "secondary": 12
+    }
+  },
+  "success_chance": 0.2
+}

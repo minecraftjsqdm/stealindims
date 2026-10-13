@@ -1,0 +1,11 @@
+{
+  "type": "corridor",
+  "weight": 0,
+  "cells": { "min_w": 1, "max_w": 1, "min_h": 1, "max_h": 3 },
+  "roofed": true,
+  "props": [
+    { "kind": "carpet", "at": "center", "height": 0 },
+    { "kind": "lantern", "at": "walls", "height": 0 }
+  ],
+  "loot_tier": "none"
+}

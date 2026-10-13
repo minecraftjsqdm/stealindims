@@ -1,0 +1,11 @@
+{
+  "type": "courtyard",
+  "weight": 3,
+  "cells": { "min_w": 2, "max_w": 3, "min_h": 2, "max_h": 3 },
+  "roofed": false,
+  "props": [
+    { "kind": "tree", "at": "center", "height": 5 },
+    { "kind": "well", "at": "corner", "height": 0 }
+  ],
+  "loot_tier": "none"
+}

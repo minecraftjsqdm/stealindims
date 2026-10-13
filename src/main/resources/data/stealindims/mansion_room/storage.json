@@ -1,0 +1,12 @@
+{
+  "type": "storage",
+  "weight": 7,
+  "cells": { "min_w": 1, "max_w": 2, "min_h": 1, "max_h": 1 },
+  "roofed": true,
+  "props": [
+    { "kind": "barrels", "at": "walls", "height": 0 },
+    { "kind": "chest", "at": "corner", "height": 0 },
+    { "kind": "lantern", "at": "center", "height": 0 }
+  ],
+  "loot_tier": "high"
+}

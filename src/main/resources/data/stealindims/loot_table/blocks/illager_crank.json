@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "stealindims:blocks/illager_crank",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "stealindims:illager_crank" }
+      ]
+    }
+  ]
+}

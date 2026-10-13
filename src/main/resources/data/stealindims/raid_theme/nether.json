@@ -1,0 +1,51 @@
+{
+  "dimension": "minecraft:the_nether",
+  "yield_multiplier": 1.38,
+  "palette": {
+    "floor": "minecraft:polished_blackstone_bricks",
+    "wall": "minecraft:blackstone",
+    "accent": "minecraft:magma_block"
+  },
+  "loot_pool": {
+    "common": [
+      { "item": "minecraft:quartz",        "weight": 30, "min": 5, "max": 12 },
+      { "item": "minecraft:gold_nugget",   "weight": 25, "min": 8, "max": 18 },
+      { "item": "minecraft:glowstone_dust", "weight": 22, "min": 4, "max": 9 },
+      { "item": "minecraft:magma_cream",   "weight": 18, "min": 1, "max": 4 },
+      { "item": "minecraft:blaze_powder",  "weight": 15, "min": 2, "max": 6 }
+    ],
+    "uncommon": [
+      { "item": "minecraft:gold_ingot",        "weight": 30, "min": 2, "max": 6 },
+      { "item": "minecraft:blaze_rod",         "weight": 22, "min": 2, "max": 5 },
+      { "item": "minecraft:ender_pearl",       "weight": 18, "min": 2, "max": 5 },
+      { "item": "minecraft:experience_bottle", "weight": 14, "min": 3, "max": 6 }
+    ],
+    "rare": [
+      { "item": "minecraft:netherite_scrap", "weight": 22, "min": 1, "max": 1 },
+      { "item": "minecraft:crying_obsidian", "weight": 14, "min": 3, "max": 8 },
+      { "item": "minecraft:ghast_tear",      "weight": 16, "min": 1, "max": 3 },
+      { "item": "minecraft:gold_block",      "weight": 14, "min": 1, "max": 2 },
+      { "item": "minecraft:diamond",         "weight": 14, "min": 1, "max": 2 }
+    ],
+    "epic": [
+      { "item": "minecraft:netherite_ingot",        "weight": 13, "min": 1, "max": 1 },
+      { "item": "minecraft:ancient_debris",         "weight": 11, "min": 1, "max": 2 },
+      { "item": "minecraft:enchanted_golden_apple", "weight": 13, "min": 1, "max": 1 },
+      { "item": "stealindims:thief_mark",           "weight": 18, "min": 1, "max": 2 }
+    ]
+  },
+  "special_loot": [
+    { "item": "stealindims:master_key", "weight": 2, "min": 1, "max": 1 },
+    { "item": "minecraft:nether_star",  "weight": 2, "min": 1, "max": 1 }
+  ],
+  "mob_table": [
+    { "id": "minecraft:zombified_piglin",  "weight": 10, "min": 2, "max": 4 },
+    { "id": "minecraft:wither_skeleton",   "weight": 8,  "min": 2, "max": 3 },
+    { "id": "minecraft:magma_cube",        "weight": 6,  "min": 2, "max": 3 },
+    { "id": "minecraft:blaze",             "weight": 5,  "min": 2, "max": 2 }
+  ],
+  "maps": [
+    { "id": "blackstone_labyrinth", "name": "黑石迷城", "layout": "lava_ring", "form": "enclosed_dungeon", "size": "medium", "locked": true }
+  ],
+  "boss": "stealindims:nether_overseer"
+}

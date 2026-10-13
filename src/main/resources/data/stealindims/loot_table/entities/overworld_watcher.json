@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:entity",
+  "random_sequence": "stealindims:entities/overworld_watcher",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "stealindims:master_key" }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:nether_star" }
+      ]
+    },
+    {
+      "rolls": { "min": 3.0, "max": 6.0 },
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:diamond_block" },
+        { "type": "minecraft:item", "name": "minecraft:emerald_block" },
+        { "type": "minecraft:item", "name": "minecraft:enchanted_golden_apple" }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stealindims:thief_mark",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 6.0, "max": 12.0 } }
+          ]
+        }
+      ]
+    }
+  ]
+}

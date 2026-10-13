@@ -1,0 +1,13 @@
+{
+  "type": "council",
+  "weight": 4,
+  "cells": { "min_w": 2, "max_w": 3, "min_h": 2, "max_h": 3 },
+  "roofed": true,
+  "props": [
+    { "kind": "cartography_table", "at": "center", "height": 0 },
+    { "kind": "banner", "at": "walls", "height": 4 },
+    { "kind": "locked_door", "at": "walls", "height": 0 },
+    { "kind": "bookshelf", "at": "walls", "height": 2 }
+  ],
+  "loot_tier": "medium"
+}

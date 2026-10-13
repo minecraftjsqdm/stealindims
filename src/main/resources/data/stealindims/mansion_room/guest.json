@@ -1,0 +1,13 @@
+{
+  "type": "guest",
+  "weight": 8,
+  "cells": { "min_w": 1, "max_w": 2, "min_h": 1, "max_h": 2 },
+  "roofed": true,
+  "props": [
+    { "kind": "bed", "at": "corner", "height": 0 },
+    { "kind": "wardrobe", "at": "walls", "height": 0 },
+    { "kind": "carpet", "at": "center", "height": 0 },
+    { "kind": "lantern", "at": "center", "height": 0 }
+  ],
+  "loot_tier": "low"
+}

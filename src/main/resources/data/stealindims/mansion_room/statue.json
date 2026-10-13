@@ -1,0 +1,10 @@
+{
+  "type": "statue",
+  "weight": 0,
+  "cells": { "min_w": 2, "max_w": 3, "min_h": 2, "max_h": 3 },
+  "roofed": true,
+  "props": [
+    { "kind": "illager_statue", "at": "center", "height": 7 }
+  ],
+  "loot_tier": "none"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "stealindims:blocks/raid_exit_portal",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stealindims:raid_exit_portal"
+        }
+      ]
+    }
+  ]
+}

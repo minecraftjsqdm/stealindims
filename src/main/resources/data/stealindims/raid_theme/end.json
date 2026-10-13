@@ -1,0 +1,49 @@
+{
+  "dimension": "minecraft:the_end",
+  "yield_multiplier": 1.68,
+  "palette": {
+    "floor": "minecraft:end_stone_bricks",
+    "wall": "minecraft:purpur_block",
+    "accent": "minecraft:obsidian"
+  },
+  "loot_pool": {
+    "common": [
+      { "item": "minecraft:ender_pearl",        "weight": 30, "min": 3, "max": 7 },
+      { "item": "minecraft:obsidian",           "weight": 25, "min": 5, "max": 11 },
+      { "item": "minecraft:popped_chorus_fruit", "weight": 22, "min": 4, "max": 9 },
+      { "item": "minecraft:purpur_block",       "weight": 20, "min": 4, "max": 9 },
+      { "item": "minecraft:end_stone",          "weight": 15, "min": 8, "max": 18 }
+    ],
+    "uncommon": [
+      { "item": "minecraft:ender_eye",         "weight": 26, "min": 1, "max": 2 },
+      { "item": "minecraft:dragon_breath",     "weight": 18, "min": 1, "max": 3 },
+      { "item": "minecraft:experience_bottle", "weight": 18, "min": 3, "max": 7 },
+      { "item": "minecraft:amethyst_shard",    "weight": 16, "min": 4, "max": 9 }
+    ],
+    "rare": [
+      { "item": "minecraft:diamond",     "weight": 24, "min": 1, "max": 2 },
+      { "item": "minecraft:echo_shard",  "weight": 18, "min": 1, "max": 3 },
+      { "item": "minecraft:ghast_tear",  "weight": 14, "min": 1, "max": 3 },
+      { "item": "minecraft:end_crystal", "weight": 14, "min": 1, "max": 1 }
+    ],
+    "epic": [
+      { "item": "minecraft:diamond_block",          "weight": 10, "min": 1, "max": 1 },
+      { "item": "minecraft:enchanted_golden_apple", "weight": 15, "min": 1, "max": 1 },
+      { "item": "minecraft:totem_of_undying",       "weight": 14, "min": 1, "max": 1 },
+      { "item": "stealindims:thief_mark",           "weight": 18, "min": 1, "max": 2 }
+    ]
+  },
+  "special_loot": [
+    { "item": "stealindims:master_key", "weight": 2, "min": 1, "max": 1 },
+    { "item": "minecraft:nether_star",  "weight": 2, "min": 1, "max": 1 }
+  ],
+  "mob_table": [
+    { "id": "minecraft:enderman",   "weight": 12, "min": 2, "max": 3 },
+    { "id": "minecraft:endermite",  "weight": 8,  "min": 2, "max": 4 },
+    { "id": "minecraft:shulker",    "weight": 3,  "min": 2, "max": 2 }
+  ],
+  "maps": [
+    { "id": "void_wastes", "name": "末地虚空", "layout": "void_spiral", "form": "underground_cave", "size": "large", "locked": true }
+  ],
+  "boss": "stealindims:void_weaver"
+}

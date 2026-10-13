@@ -1,0 +1,8 @@
+{
+  "type": "submission",
+  "weight": 0,
+  "cells": { "min_w": 1, "max_w": 1, "min_h": 1, "max_h": 1 },
+  "roofed": true,
+  "props": [],
+  "loot_tier": "none"
+}

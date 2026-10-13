@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "stealindims:raid_portal",
+    "stealindims:illager_crank",
+    "stealindims:boss_portal"
+  ]
+}

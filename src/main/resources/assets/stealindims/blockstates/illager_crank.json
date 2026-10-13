@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "stealindims:block/illager_crank" },
+    "facing=east":  { "model": "stealindims:block/illager_crank", "y": 90 },
+    "facing=south": { "model": "stealindims:block/illager_crank", "y": 180 },
+    "facing=west":  { "model": "stealindims:block/illager_crank", "y": 270 }
+  }
+}

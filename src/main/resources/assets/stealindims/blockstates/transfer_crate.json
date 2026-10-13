@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "stealindims:block/transfer_crate"
+    }
+  }
+}

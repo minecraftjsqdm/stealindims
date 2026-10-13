@@ -1,0 +1,12 @@
+{
+  "type": "cell",
+  "weight": 5,
+  "cells": { "min_w": 1, "max_w": 1, "min_h": 2, "max_h": 3 },
+  "roofed": true,
+  "props": [
+    { "kind": "bars", "at": "center", "height": 2 },
+    { "kind": "iron_door", "at": "walls", "height": 0 },
+    { "kind": "carpet", "at": "corner", "height": 0 }
+  ],
+  "loot_tier": "low"
+}

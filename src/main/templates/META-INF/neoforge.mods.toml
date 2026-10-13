@@ -1,0 +1,41 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="${loader_version_range}" #mandatory
+
+license="${mod_license}"
+
+[[mods]] #mandatory
+
+modId="${mod_id}" #mandatory
+
+version="${mod_version}" #mandatory
+
+displayName="${mod_name}" #mandatory
+
+authors="${mod_authors}" #optional
+
+description='''${mod_description}'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neo_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# GeckoLib is what plays the top evoker's model and its nine clips (R27). It is declared
+# *optional* on purpose: without it the mod still loads and the boss falls back to vanilla's
+# EvokerRenderer, driven by the same authoritative skill state machine.
+[[dependencies.${mod_id}]]
+    modId="geckolib"
+    type="optional"
+    versionRange="${geckolib_version_range}"
+    ordering="NONE"
+    side="BOTH"

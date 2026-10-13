@@ -1,0 +1,86 @@
+{
+  "dimension": "minecraft:overworld",
+  "yield_multiplier": 1.10,
+  "palette": {
+    "floor": "minecraft:stone_bricks",
+    "wall": "minecraft:deepslate_bricks",
+    "accent": "minecraft:oxidized_copper"
+  },
+  "loot_pool": {
+    "common": [
+      { "item": "minecraft:coal",           "weight": 26, "min": 5, "max": 12 },
+      { "item": "minecraft:copper_ingot",   "weight": 24, "min": 4, "max": 9 },
+      { "item": "minecraft:iron_ingot",     "weight": 32, "min": 2, "max": 5 },
+      { "item": "minecraft:redstone",       "weight": 20, "min": 5, "max": 12 },
+      { "item": "minecraft:lapis_lazuli",   "weight": 14, "min": 3, "max": 7 },
+      { "item": "minecraft:amethyst_shard", "weight": 14, "min": 3, "max": 7 }
+    ],
+    "uncommon": [
+      { "item": "minecraft:gold_ingot",       "weight": 28, "min": 2, "max": 5 },
+      { "item": "minecraft:emerald",          "weight": 22, "min": 1, "max": 3 },
+      { "item": "minecraft:experience_bottle", "weight": 14, "min": 2, "max": 5 },
+      { "item": "minecraft:iron_block",       "weight": 10, "min": 1, "max": 1 },
+      { "item": "minecraft:glowstone_dust",   "weight": 14, "min": 4, "max": 9 }
+    ],
+    "rare": [
+      { "item": "minecraft:diamond",         "weight": 26, "min": 1, "max": 2 },
+      { "item": "minecraft:emerald_block",   "weight": 12, "min": 1, "max": 1 },
+      { "item": "minecraft:golden_apple",    "weight": 18, "min": 1, "max": 2 },
+      { "item": "minecraft:nautilus_shell",  "weight": 15, "min": 1, "max": 3 },
+      { "item": "minecraft:heart_of_the_sea", "weight": 5, "min": 1, "max": 1 }
+    ],
+    "epic": [
+      { "item": "minecraft:diamond_block",           "weight": 10, "min": 1, "max": 1 },
+      { "item": "minecraft:enchanted_golden_apple",  "weight": 16, "min": 1, "max": 1 },
+      { "item": "minecraft:totem_of_undying",        "weight": 15, "min": 1, "max": 1 },
+      { "item": "stealindims:thief_mark",            "weight": 18, "min": 1, "max": 2 }
+    ]
+  },
+  "special_loot": [
+    { "item": "stealindims:master_key", "weight": 2, "min": 1, "max": 1 },
+    { "item": "minecraft:nether_star",  "weight": 1, "min": 1, "max": 1 }
+  ],
+  "mob_table": [
+    { "id": "minecraft:zombie",   "weight": 10, "min": 2, "max": 4 },
+    { "id": "minecraft:skeleton", "weight": 8,  "min": 2, "max": 4 },
+    { "id": "minecraft:spider",   "weight": 6,  "min": 2, "max": 3 },
+    { "id": "minecraft:creeper",  "weight": 4,  "min": 2, "max": 2 }
+  ],
+  "maps": [
+    { "id": "mining_craft",  "name": "挖矿工艺", "layout": "cavern_grid",  "form": "underground_cave", "size": "medium", "locked": true },
+    {
+      "id": "mansion_probe", "name": "府邸密探", "layout": "mansion_maze",
+      "form": "enclosed_dungeon", "size": "large", "geometry": "mansion",
+      "palette": {
+        "floor": "minecraft:dark_oak_planks",
+        "floor_alt": "minecraft:cobblestone",
+        "plank": "minecraft:dark_oak_planks",
+        "log": "minecraft:dark_oak_log",
+        "base": "minecraft:cobblestone",
+        "plaster": "minecraft:birch_planks",
+        "trim": "minecraft:mossy_stone_bricks",
+        "roof": "minecraft:dark_oak_stairs",
+        "roof_slab": "minecraft:dark_oak_slab",
+        "window": "minecraft:glass_pane",
+        "carpet": "minecraft:red_carpet",
+        "shelf": "minecraft:bookshelf",
+        "banner": "minecraft:white_wall_banner",
+        "fence": "minecraft:dark_oak_fence",
+        "bars": "minecraft:iron_bars",
+        "lantern": "minecraft:lantern",
+        "door": "minecraft:dark_oak_door",
+        "nose": "minecraft:dark_oak_planks"
+      },
+      "mob_table": [
+        { "id": "minecraft:zombie",     "weight": 10, "min": 2, "max": 4 },
+        { "id": "minecraft:skeleton",   "weight": 8,  "min": 2, "max": 4 },
+        { "id": "minecraft:spider",     "weight": 6,  "min": 2, "max": 3 },
+        { "id": "minecraft:vindicator", "weight": 5,  "min": 1, "max": 2 },
+        { "id": "minecraft:evoker",     "weight": 3,  "min": 1, "max": 1 },
+        { "id": "minecraft:pillager",   "weight": 5,  "min": 1, "max": 3 }
+      ]
+    },
+    { "id": "machine_hall",  "name": "机械静力", "layout": "machine_hall", "form": "open_platforms",   "size": "medium", "locked": true }
+  ],
+  "boss": "stealindims:overworld_watcher"
+}

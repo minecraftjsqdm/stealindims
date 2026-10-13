@@ -1,0 +1,13 @@
+{
+  "type": "dining",
+  "weight": 5,
+  "cells": { "min_w": 1, "max_w": 2, "min_h": 2, "max_h": 2 },
+  "roofed": true,
+  "props": [
+    { "kind": "table", "at": "center", "height": 0 },
+    { "kind": "smoker", "at": "corner", "height": 0 },
+    { "kind": "barrels", "at": "walls", "height": 0 },
+    { "kind": "chandelier", "at": "center", "height": 4 }
+  ],
+  "loot_tier": "medium"
+}
